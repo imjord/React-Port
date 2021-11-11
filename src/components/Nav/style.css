@@ -1,0 +1,14 @@
+.nav-bar-container {
+  color: red;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.right {
+  color: blue;
+}
+
+.left {
+  color: green;
+}
