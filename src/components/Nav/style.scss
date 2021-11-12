@@ -6,7 +6,7 @@
   border: 70px solid rgba(255, 0, 0, 0.5);
   margin-bottom: 50px;
   .right {
-    color: blue;
+    color: black;
 
     ul {
       text-decoration: none;
@@ -20,7 +20,15 @@
       li {
         text-decoration: none;
         padding: 10px;
+
+        .nav-link {
+          text-decoration: none;
+          color: black;
+        }
       }
+    }
+    .nav-link:hover {
+      font-weight: 600;
     }
   }
 
