@@ -1,0 +1,30 @@
+.nav-bar-container {
+  color: red;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-around;
+  border: 70px solid rgba(255, 0, 0, 0.5);
+  margin-bottom: 50px;
+  .right {
+    color: blue;
+
+    ul {
+      text-decoration: none;
+      color: black;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        text-decoration: none;
+        padding: 10px;
+      }
+    }
+  }
+
+  .left {
+    color: green;
+  }
+}

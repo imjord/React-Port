@@ -1,13 +1,18 @@
 import React from 'react';
-import './style.css';
+import './style.scss';
 
 function Nav(){
     return(
         <div className="nav-bar-container border border-top-0 border-dark">
         <div className="left">
-            This is left side in container
+            Jordan Harper
         </div>
-        <div className="right"> this is the right side of the container</div>
+        <div className="right"> <ul> 
+            <li>About</li>
+             <li>Projects</li>
+             <li> Skills </li>
+             <li>Contact</li>
+             </ul></div>
         </div>
     )
 }
