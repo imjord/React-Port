@@ -1,4 +1,16 @@
 .footer-container {
   position: relative;
-  margin-top: 50%;
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .left {
+    margin: 50px;
+    transform: scale(3);
+  }
+  .right {
+    margin: 50px;
+    transform: scale(3);
+  }
 }

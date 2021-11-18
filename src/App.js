@@ -5,8 +5,9 @@ import Nav from './components/Nav/index'
 import LandingPage from './components/LandingPage/index';
 import Footer from './components/Footer/index';
 import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
-import Contact from './components/Contact/index';
+import Resume from './components/Resume/index';
 import Projects from './components/Projects/index';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Routes>
         <Route exact path='/' element={<LandingPage/>}/>
         <Route exact path='/projects' element={<Projects/>}/>
-        <Route exact path='/contact' element={<Contact/>}/>
+        <Route exact path='/skills' element={<Skills/>}/>
+        <Route exact path='/resume' element={<Resume/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
