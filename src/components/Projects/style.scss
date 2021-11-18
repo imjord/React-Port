@@ -10,3 +10,19 @@
   font-weight: 200;
   height: 100px;
 }
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-weight: 1000;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: larger;
+  font-weight: 400;
+}

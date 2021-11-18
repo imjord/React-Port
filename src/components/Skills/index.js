@@ -7,24 +7,23 @@ function Skills(){
 
   return(
   <div className="skills-container">
-    HTML
-    <ProgressBar bgColor="orange" completed={85} />; 
-    CSS
-    <ProgressBar bgColor="blue" completed={85} />;
-    Javascript
-    <ProgressBar bgColor="yellow" completed={85} />;
-    Node
-    <ProgressBar bgColor="Gray" completed={85} />;
-    SQL
-    <ProgressBar bgColor="dark blue" completed={85} />;
-    noSQL
-    <ProgressBar bgColor="teal" completed={85} />; 
-    HTML
-    <ProgressBar bgColor="orange" completed={85} />;
-    HTML
-    <ProgressBar bgColor="orange" completed={85} />;
-    HTML
-    <ProgressBar bgColor="orange" completed={85} />;
+  HTML - Intermediate
+    <ProgressBar bgColor="green" completed={85} />
+  CSS - Intermediate
+    <ProgressBar bgColor="green" completed={85} />
+    Javascript - Intermediate
+    <ProgressBar bgColor="green" completed={80} />
+    Node - Intermediate
+    <ProgressBar bgColor="green" completed={80} />
+    MERN - Intermediate
+    <ProgressBar bgColor="green" completed={75} />
+    SQL - Beginner 
+    <ProgressBar bgColor="#CCCC00	" completed={65} />
+    noSQL - Beginner
+    <ProgressBar bgColor="#CCCC00	" completed={65} />
+    Java - Beginner
+    <ProgressBar bgColor="#CCCC00" completed={55} />
+    
   </div>
   )
 }

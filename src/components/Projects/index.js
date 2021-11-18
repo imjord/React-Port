@@ -14,17 +14,17 @@ function Projects(){
       <Carousel>
           <div className="image-box">
                     <img src={image1} alt="" />
-                    <p className="legend"><a href="https://lukemchenry311.github.io/weekly-group-project/" target="_blank">coinvrt</a></p>
+                    <p className="legend"><a className="link" href="https://lukemchenry311.github.io/weekly-group-project/" target="_blank">COINVRT (Click for link)</a></p>
                     
                 </div>
                 
                 <div>
                     <img src={image2} alt="" />
-                    <p className="legend">wayo</p>
+                    <p className="legend"><a className="link" href="https://murmuring-thicket-79577.herokuapp.com/" target="_blank">WAYO</a></p>
                 </div>
                 <div>
                     <img src={image3} alt="" />
-                    <p className="legend">fooder</p>
+                    <p className="legend"><a className="link" href="https://powerful-crag-64537.herokuapp.com/" target="_blank">FOODER</a></p>
                 </div>
                 
       </Carousel>

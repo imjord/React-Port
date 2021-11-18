@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  .left {
+    margin: 30px;
+    height: 500px;
+  }
+
+  .right {
+    margin: 30px;
+    height: 10px;
+    transform: scale(10);
+  }
+}
