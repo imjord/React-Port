@@ -3,7 +3,7 @@ import './style.scss';
 
 function Nav(){
     return(
-        <div className="nav-bar-container border border-top-0 border-dark">
+        <div className="nav-bar-container">
         <div className="left">
             Jordan Harper
         </div>
