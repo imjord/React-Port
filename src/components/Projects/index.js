@@ -29,7 +29,7 @@ function Projects(){
                 
       </Carousel>
       <div className="description-container">
-      <p><i>These are 3 projects that I worked on during my time at the U of U Coding Bootcamp. For Wayo and Fooder I was the sole backend developer.</i> </p>
+      <p><i>These are 3 amazing projects that I created during my time at the U of U Coding Bootcamp. I was the sole backend developer for 2 out of the 3 projects.</i> </p>
       
       </div>
   

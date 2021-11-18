@@ -1,12 +1,28 @@
-import React from "react";
+import React, {useEffect, useRef} from "react";
 import './style.scss';
+import {init} from 'ityped';
+
 
 
 function LandingPage(){
+    const textRef = useRef();
+    useEffect(() => {
+        init(textRef.current, {
+            showCursor: true,
+            strings: ["Web Developer", "Software Engineer"],
+            typeSpeed: 200
+        })
+    }, []);
     return(
         <div className="container">
-            this is my landing page!
-            <iframe src="https://giphy.com/embed/X6aCb7w6K65uMIgkPy" width="480" height="216" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/X6aCb7w6K65uMIgkPy">via GIPHY</a></p>
+            <div className="landing-left">
+            
+            </div>
+            <div className="landing-right">
+                Welcome to my portfolio!
+                My name is Jordan and I'm a Junior <span ref={textRef}></span>
+            </div>
+            
         </div>
     )
 }

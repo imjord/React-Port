@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .landing-left {
+    font-size: 50px;
+  }
+  .landing-right {
+    font-size: 100px;
+    height: 500px;
+  }
+}

@@ -10,7 +10,7 @@ function Resume(){
             Hey thank you for visiting my portfolio! If you would like to see my resume. Click the note!
                </i></div>
             <div className="right">
-            <a href="https://docs.google.com/document/d/1T6D4e4ECXR3YcMbVqCPjSnIj26LHT9_vbyT3WdDVanw/edit?usp=sharing"><NoteIcon/></a>
+            <a href="https://docs.google.com/document/d/1T6D4e4ECXR3YcMbVqCPjSnIj26LHT9_vbyT3WdDVanw/edit?usp=sharing" target="_blank"><NoteIcon/></a>
             </div>
       
         </div>
