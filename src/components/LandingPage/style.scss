@@ -10,3 +10,24 @@
     height: 500px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    font-size: 30px;
+    margin-bottom: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    font-size: 30px;
+    margin-bottom: 250px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    font-size: 100px !important;
+    margin-bottom: 250px;
+  }
+}
