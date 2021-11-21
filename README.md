@@ -26,6 +26,6 @@
 
   #### Project Description: My portfolio made using react and sass.
 
-  ##### Repo License: NA
+  ##### Repo Live Link: https://afternoon-chamber-59104.herokuapp.com/
 
   #### Repo Info: Mobile responsive w.i.p.
