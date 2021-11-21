@@ -4,25 +4,26 @@ import React from 'react';
 import Nav from './components/Nav/index'
 import LandingPage from './components/LandingPage/index';
 import Footer from './components/Footer/index';
-import { BrowserRouter, Route, Routes, HashRouter } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import Resume from './components/Resume/index';
 import Projects from './components/Projects/index';
 import Skills from './components/Skills';
 
 
 function App() {
+
   return (
     <div>
-      <BrowserRouter>
+     <BrowserRouter>
       <Nav/>
       <Routes>
-        <Route exact path='/' element={<LandingPage/>}/>
-        <Route exact path='/projects' element={<Projects/>}/>
-        <Route exact path='/skills' element={<Skills/>}/>
-        <Route exact path='/resume' element={<Resume/>}/>
+        <Route exact path='/React-Port/' element={<LandingPage/>}/>
+        <Route exact path='/React-Port/Projects' element={<Projects/>}/>
+        <Route exact path='/React-Port/Skills' element={<Skills/>}/>
+        <Route exact path='/React-Port/Resume' element={<Resume/>}/>
       </Routes>
       <Footer/>
-    </BrowserRouter>
+      </BrowserRouter>
       </div>
     
   
