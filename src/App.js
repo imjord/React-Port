@@ -18,6 +18,7 @@ function App() {
       <Nav/>
       <Routes>
         <Route exact path='/' element={<LandingPage/>}/>
+        <Route exact path='/React-Port' element={<LandingPage/>}/>
         <Route exact path='/Projects' element={<Projects/>}/>
         <Route exact path='/Skills' element={<Skills/>}/>
         <Route exact path='/Resume' element={<Resume/>}/>
