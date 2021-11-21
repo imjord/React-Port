@@ -17,10 +17,10 @@ function App() {
      <BrowserRouter>
       <Nav/>
       <Routes>
-        <Route exact path='/React-Port/' element={<LandingPage/>}/>
-        <Route exact path='/React-Port/Projects' element={<Projects/>}/>
-        <Route exact path='/React-Port/Skills' element={<Skills/>}/>
-        <Route exact path='/React-Port/Resume' element={<Resume/>}/>
+        <Route exact path='/' element={<LandingPage/>}/>
+        <Route exact path='/Projects' element={<Projects/>}/>
+        <Route exact path='/Skills' element={<Skills/>}/>
+        <Route exact path='/Resume' element={<Resume/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

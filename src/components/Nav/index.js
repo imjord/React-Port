@@ -8,10 +8,10 @@ function Nav(){
             Jordan Harper
         </div>
         <div className="right"> <ul> 
-            <li><a  className="nav-link" href="/React-Port/">Home </a></li>
-             <li><a className="nav-link" href="/React-Port/Projects">Projects </a></li>
-             <li><a className="nav-link" href="/React-Port/Skills">Skills </a></li>
-             <li><a className="nav-link" href="/React-Port/Resume">Resume </a></li>
+            <li><a  className="nav-link" href="/">Home </a></li>
+             <li><a className="nav-link" href="/Projects">Projects </a></li>
+             <li><a className="nav-link" href="/Skills">Skills </a></li>
+             <li><a className="nav-link" href="/Resume">Resume </a></li>
              </ul></div>
         </div>
     )
