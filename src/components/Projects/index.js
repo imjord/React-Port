@@ -18,33 +18,45 @@ function Projects(){
       <Carousel>
           <div className="image-box">
                     <img src={image1} alt="" />
-                    <p className="legend"><a className="link" href="https://lukemchenry311.github.io/weekly-group-project/" target="_blank">COINVRT (Click for link)</a></p>
+                    <p className="legend">COINVRT</p>
+                    <p> <a className="link" href="https://lukemchenry311.github.io/coinvrt/" target="_blank">Live Link</a></p>
+                    <p> <a className="link" href="https://github.com/LukeMcHenry311/coinvrt" target="_blank">Repository</a></p>
+                    
                     
                 </div>
                 
                 <div>
                     <img src={image2} alt="" />
-                    <p className="legend"><a className="link" href="https://murmuring-thicket-79577.herokuapp.com/" target="_blank">WAYO</a></p>
+                    <p className="legend">Wayo</p>
+                    <p> <a className="link" href="https://murmuring-thicket-79577.herokuapp.com/" target="_blank">Live Link</a></p>
+                    <p> <a className="link" href="https://github.com/imjord/wayo" target="_blank">Repository</a></p>
                 </div>
                 <div>
                     <img src={image3} alt="" />
-                    <p className="legend"><a className="link" href="https://powerful-crag-64537.herokuapp.com/" target="_blank">FOODER</a></p>
+                    <p className="legend">Fooder</p>
+                    <p> <a className="link" href="https://github.com/imjord/fooder_01" target="_blank">Live Link</a></p>
+                    <p> <a className="link" href="https://github.com/imjord/fooder_01" target="_blank">Repository</a></p>
                 </div>
                 <div>
                     <img src={image4} alt="" />
-                    <p className="legend"><a className="link" href="https://github.com/imjord/NOSQL-SOCIAL-NETWORK-API" target="_blank">Deep Thoughts</a></p>
+                    <p className="legend">noSQL Backend - Deep Thoughts</p>
+                    <p> <a className="link" href="https://github.com/imjord/NOSQL-SOCIAL-NETWORK-API" target="_blank">Repository</a></p>
                 </div>
                 <div>
                     <img src={image5} alt="" />
-                    <p className="legend"><a className="link" href="https://github.com/imjord/GUI-Guessing-Game" target="_blank">Java GUI Guessing Game</a></p>
+                    <p className="legend">Java GUI Guessing Game</p>
+                    <p> <a className="link" href="https://github.com/imjord/GUI-Guessing-Game" target="_blank">Repository</a></p>
                 </div>
                 <div>
                     <img src={image6} alt="" />
-                    <p className="legend"><a className="link" href="https://github.com/imjord/node-noteTaker" target="_blank">Note Taker Backend</a></p>
+                    <p className="legend">Note taker Node.js</p>
+                    <p> <a className="link" href="https://github.com/imjord/node-noteTaker" target="_blank">Repository</a></p>
                 </div>
                 <div>
                     <img src={image7} alt="" />
-                    <p className="legend"><a className="link" href="https://imjord.github.io/run-buddy/index.html" target="_blank">Run Buddy HTML</a></p>
+                    <p className="legend">HTML Run Buddy</p>
+                    <p> <a className="link" href="https://imjord.github.io/run-buddy/" target="_blank">Live Link</a></p>
+                    <p> <a className="link" href="https://github.com/imjord/run-buddy" target="_blank">Repository</a></p>
                 </div>
                 
       </Carousel>
