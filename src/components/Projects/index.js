@@ -34,7 +34,7 @@ function Projects(){
                 <div>
                     <img src={image3} alt="" />
                     <p className="legend">Fooder</p>
-                    <p> <a className="link" href="https://github.com/imjord/fooder_01" target="_blank">Live Link</a></p>
+                    <p> <a className="link" href="https://powerful-crag-64537.herokuapp.com/" target="_blank">Live Link</a></p>
                     <p> <a className="link" href="https://github.com/imjord/fooder_01" target="_blank">Repository</a></p>
                 </div>
                 <div>
