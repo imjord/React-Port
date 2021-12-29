@@ -41,17 +41,9 @@ function Projects(){
                     <img src={image4} alt="" />
                     <p className="legend">noSQL Backend - Deep Thoughts</p>
                     <p> <a className="link" href="https://github.com/imjord/NOSQL-SOCIAL-NETWORK-API" target="_blank">Repository</a></p>
+                    <p> <a className="link" href="https://drive.google.com/file/d/1rh8o_VKKQyr8BHX021mWL5xA_i5MGkJO/view" target="_blank">Video</a></p>
                 </div>
-                <div>
-                    <img src={image5} alt="" />
-                    <p className="legend">Java GUI Guessing Game</p>
-                    <p> <a className="link" href="https://github.com/imjord/GUI-Guessing-Game" target="_blank">Repository</a></p>
-                </div>
-                <div>
-                    <img src={image6} alt="" />
-                    <p className="legend">Note taker Node.js</p>
-                    <p> <a className="link" href="https://github.com/imjord/node-noteTaker" target="_blank">Repository</a></p>
-                </div>
+             
                 <div>
                     <img src={image7} alt="" />
                     <p className="legend">HTML Run Buddy</p>
