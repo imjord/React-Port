@@ -38,7 +38,11 @@
 }
 
 @media screen and (min-width: 800px) {
-  .udj {
+  .left {
+    font-size: 50px;
+    margin-left: 5rem;
+  }
+  .fas {
     display: none;
     align-items: center;
     justify-content: center;
@@ -46,9 +50,13 @@
 }
 
 @media screen and (max-width: 800px) {
+  .left {
+    display: flex;
+    font-size: 35px;
+  }
   .nav-link {
     display: none;
-    .udj {
+    .fas {
       display: flex;
       align-items: center;
       justify-content: center;
