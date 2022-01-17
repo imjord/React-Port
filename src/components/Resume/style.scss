@@ -27,3 +27,9 @@
     transform: scale(10);
   }
 }
+
+@media screen and (max-width: 800px) {
+  .left {
+    font-size: 20px;
+  }
+}
