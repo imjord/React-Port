@@ -1,7 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './style.scss';
+import { slide as Menu } from 'react-burger-menu'
+
 
 function Nav(){
+
+    const [navBarOpen, setNavBarOpen] = useState(false);
+
+   
+  function hamClick(e){
+    e.preventDefault();
+  }
+
     return(
         <div className="nav-bar-container">
         <div className="left">
@@ -12,6 +22,15 @@ function Nav(){
              <li><a className="nav-link" href="/Projects">Projects </a></li>
              <li><a className="nav-link" href="/Skills">Skills </a></li>
              <li><a className="nav-link" href="/Resume">Resume </a></li>
+             <Menu className='udj' isOpen={ true }>
+             <li><a  className="menu-item" href="/">Home </a></li>
+             <li><a className="menu-item" href="/Projects">Projects </a></li>
+             <li><a className="menu-item" href="/Skills">Skills </a></li>
+             <li><a className="menu-item" href="/Resume">Resume </a></li>
+             <a onClick={ hamClick } className="menu-item--small" href="">Settings</a>
+        </Menu>
+
+
              </ul></div>
         </div>
     )

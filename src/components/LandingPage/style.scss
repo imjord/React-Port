@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   .landing-left {
-    font-size: 50px;
   }
   .landing-right {
     font-size: 100px;
@@ -14,20 +13,9 @@
 @media screen and (max-width: 800px) {
   .container {
     font-size: 30px;
-    margin-bottom: 250px;
-  }
-}
 
-@media screen and (max-width: 600px) {
-  .container {
-    font-size: 30px;
-    margin-bottom: 250px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .container {
-    font-size: 100px !important;
-    margin-bottom: 250px;
+    .landing-right {
+      font-size: 40px;
+    }
   }
 }
